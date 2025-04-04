@@ -9,10 +9,10 @@ description = "MCP OR Agents"
 readme = "README.md"
 requires-python = ">=3.12.9"
 
-[tool.uv.dependencies]
+[tool.dependencies]
 python = "3.12.9"
 
-[tool.uv.dev-dependencies]
+[tool.dev-dependencies]
 # uv
 uv = "^0.6.12"
 
