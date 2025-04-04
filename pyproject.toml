@@ -1,6 +1,6 @@
 [project]
 authors = [
-    { name="Xin Shi", email="yongjin@cs.stanford.edu" },
+    { name="Xin Shi", email="shi321xin@gmail.com" },
     { name="Zheng Shi", email="shi.zheng.tfls@gmail.com" },
 ]
 name = "mcp-or-agents"
