@@ -1,0 +1,11 @@
+[project]
+authors = [
+    { name="Xin Shi", email="yongjin@cs.stanford.edu" },
+    { name="Zheng Shi", email="shi.zheng.tfls@gmail.com" },
+]
+name = "mcp-or-agents"
+version = "0.1.0"
+description = "MCP OR Agents"
+readme = "README.md"
+requires-python = ">=3.12.9"
+dependencies = []
