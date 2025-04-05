@@ -9,17 +9,19 @@ description = "MCP OR Agents"
 readme = "README.md"
 requires-python = ">=3.12.9"
 
-[tool.dependencies]
-python = "3.12.9"
-
-[tool.dev-dependencies]
-# uv
-uv = "^0.6.12"
-
-# linters and formatters
-ruff = "^0.11.4"
-mypy = "^1.14.1"
-
-# testing
-pytest = "*"
-pytest-mock = "*"
+[project.optional-dependencies]
+dev = [
+    # uv
+    "uv>=0.6.12",
+    
+    # linters and formatters
+    "ruff>=0.11.4",
+    "mypy>=1.14.1",
+    
+    # testing
+    "pytest",
+    "pytest-mock",
+    
+    # build
+    "build>=1.0.3",
+]
